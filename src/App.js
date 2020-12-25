@@ -6,8 +6,8 @@ function App() {
   return (
     <div>
       <UserInput/>
-      <UserOutput/>
-      <UserOutput/>
+      <UserOutput name="Joe"/>
+      <UserOutput name="John"/>
     </div>
     
   );

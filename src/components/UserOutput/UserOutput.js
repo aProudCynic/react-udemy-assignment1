@@ -1,8 +1,8 @@
-function UserOutput() {
+function UserOutput(props) {
     return (
         <div>
             <p>Oh</p>
-            <p>Hi</p>
+            <p>Hi {props.name}</p>
         </div>
     )
 }
