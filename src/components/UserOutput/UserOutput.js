@@ -7,4 +7,4 @@ function UserOutput() {
     )
 }
 
-export default UserInput;
+export default UserOutput;
