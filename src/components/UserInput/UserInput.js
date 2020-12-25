@@ -1,7 +1,9 @@
-function UserInput() {
+import React from 'react';
+
+const userInput = () => {
     return (
         <input type="text"/>
-    )
+    );
 }
 
-export default UserInput;
+export default userInput;
