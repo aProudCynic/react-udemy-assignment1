@@ -9,7 +9,7 @@ class App extends Component {
     userName: 'Tommy'
   }
 
-  userNameChanged = () => {
+  userNameChanged = (event) => {
     this.setState({userName: event.target.value});
   }
 
